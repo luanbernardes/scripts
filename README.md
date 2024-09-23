@@ -13,3 +13,10 @@ This scripts will install:
 - *zsh* and *oh-my-zsh*
     - will clear your zshrc file and create a new one with configs 
 - *asdf* with *node* and *go* plugins
+
+Need to fix:
+- Not installing 2 asdf plugins, need to run manually:
+```
+git clone https://github.com/fdellwing/zsh-bat.git $ZSH_CUSTOM/plugins/zsh-bat &&
+git clone https://github.com/MichaelAquilina/zsh-you-should-use.git $ZSH_CUSTOM/plugins/you-should-use
+```
