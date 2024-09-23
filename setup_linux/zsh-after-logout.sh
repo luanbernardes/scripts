@@ -22,7 +22,7 @@ git clone https://github.com/asdf-vm/asdf.git ~/.asdf
 
 # update .zshrc file
 # clear file
-bash ./clear_file.sh ./test.txt
+bash ./clear_file.sh ~/.zshrc
 echo "$Yellow ZSH: changing .zshrc file"
 zshrcContent="export ZSH=\"$HOME/.oh-my-zsh\"
 
